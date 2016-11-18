@@ -5,7 +5,7 @@ This is the repository developed to classify two different organism from their s
 One can use this repository as itself or can add more categories to the classifier. To add more categories, follow the CodeLab guide given above.
 
 ![el](Rhabditidae/c elegans/pic_017.jpg)
-![el](Rhabditidae/Halicephalobus mephisto/pic_023.jpg)
+![el](Rhabditidae/halicephalobus mephisto/pic_023.jpg)
 
 ##Requirements
 
