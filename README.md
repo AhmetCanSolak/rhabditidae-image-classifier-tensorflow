@@ -53,15 +53,15 @@ cp -rf $HOME/rhabditidae-image-classifier-tensorflow/* .
 2. Put the images of the corresponding category into this folder.
 
 3. Start docker image again and run the command:
-```bash
-python tensorflow/examples/image_retraining/retrain.py \
---bottleneck_dir=/tf_files/bottlenecks \
---how_many_training_steps 500 \
---model_dir=/tf_files/inception \
---output_graph=/tf_files/retrained_graph.pb \
---output_labels=/tf_files/retrained_labels.txt \
---image_dir /tf_files/rhabditidae
-```
+  ```bash
+  python tensorflow/examples/image_retraining/retrain.py \
+  --bottleneck_dir=/tf_files/bottlenecks \
+  --how_many_training_steps 500 \
+  --model_dir=/tf_files/inception \
+  --output_graph=/tf_files/retrained_graph.pb \
+  --output_labels=/tf_files/retrained_labels.txt \
+  --image_dir /tf_files/rhabditidae
+  ```
 
 4. Run the classifier script again to check new category label. `python /tf_files/classifier.py <path_to_image>`
 
