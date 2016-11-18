@@ -26,7 +26,7 @@ To develop this classifier, [TensorFlow](https://github.com/tensorflow/tensorflo
 ##Where is where?
 
 Our classifier script is `classifier.py` as one can easily guess :)
-Image data that used for retraining of final layer can be found under the rhabditidae folder. To understand what other parts of the repository required for, you can check retraining script of the TensorFlow from [here](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/image_retraining/retrain.py)
+Image data that used for retraining of final layer can be found under the rhabditidae folder. To understand what other parts of the repository required for, you can check retraining script of the TensorFlow from [here](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/image_retraining/retrain.py).
 
 
 ## Install
