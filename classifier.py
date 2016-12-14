@@ -1,9 +1,9 @@
 import tensorflow as tf, sys
 
-# Read the path address first
+# First read the image path
 image_path = sys.argv[1]
 
-# Read images to the image_data
+# Read image to the image_data
 image_data = tf.gfile.FastGFile(image_path, 'rb').read()
 
 # Loads label file, strips off carriage return
