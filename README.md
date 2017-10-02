@@ -8,22 +8,22 @@ To develop this classifier, [TensorFlow](https://github.com/tensorflow/tensorflo
 ![el](rhabditidae/c elegans/pic_017.jpg)
 ![el](rhabditidae/halicephalobus mephisto/pic_023.jpg)
 
-##Results
+## Results
 
-###Accuracy
+### Accuracy
 ![accuracy](readme_images/accuracy.png)
-###Test Result with C elegans Image
+### Test Result with C elegans Image
 ![accuracy](readme_images/test_elegans.png)
-###Test Result with H mephisto Image
+### Test Result with H mephisto Image
 ![accuracy](readme_images/test_mephisto.png)
 
 
 
-##Dependencies
+## Dependencies
 
 * [docker](https://www.docker.com/products/docker-toolbox)
 
-##Where is where?
+## Where is where?
 
 Our classifier script is `classifier.py` as one can easily guess :)
 Image data that used for retraining of final layer can be found under the rhabditidae folder. To understand what other parts of the repository required for, you can check retraining script of the TensorFlow from [here](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/image_retraining/retrain.py) .
@@ -39,14 +39,14 @@ cd tf_files
 cp -rf $HOME/rhabditidae-image-classifier-tensorflow/* .
 ```
 
-##Usage
+## Usage
 
 1. Start the docker image `docker run -it -v $HOME/tf_files:/tf_files/ gcr.io/tensorflow/tensorflow:latest-devel`
 
 2. Run the classifier script to label the image. `python /tf_files/classifier.py <path_to_image>`
 
 
-##Do you have other categories to recognize?
+## Do you have other categories to recognize?
 
 1. Open a new folder under rhabditidae folder with name of the category you want to add.
 
