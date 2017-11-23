@@ -45,7 +45,7 @@ cp -rf $HOME/rhabditidae-image-classifier-tensorflow/* .
 2. Run the classifier script to label the image. `python /tf_files/classifier.py <path_to_image>`
 
 
-## Do you have other categories to recognize?
+## Do you have additional categories to recognize?
 
 1. Open a new folder under rhabditidae folder with name of the category you want to add.
 
