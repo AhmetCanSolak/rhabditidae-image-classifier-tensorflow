@@ -4,9 +4,8 @@ This is the repository developed to classify two different organism from their s
 
 To develop this classifier, [TensorFlow](https://github.com/tensorflow/tensorflow) framework and the famous [Inception](https://github.com/tensorflow/models/tree/master/inception) model are used. What is done to get this repository is basically retraining Inception's final layer for our categories which are Caenorhabditis elegans and Halicephalobus mephisto.
 
-
-![el](rhabditidae/c elegans/pic_017.jpg)
-![el](rhabditidae/halicephalobus mephisto/pic_023.jpg)
+![el](http://post.queensu.ca/~chinsang/_Media/c-elegans_med_hr.jpeg)
+![el](http://planete.gaia.free.fr/images/im.animal/biotopes/halicephalobus-mephisto2.jpg)
 
 ## Results
 
